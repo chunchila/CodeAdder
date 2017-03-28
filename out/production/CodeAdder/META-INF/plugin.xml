@@ -30,10 +30,10 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="action" class="GenAction" text="This is Sparta">
+    <!--action id="action" class="GenAction" text="This is Sparta">
       <add-to-group group-id="GenerateGroup" anchor="first"/>
-    </action>
-    <action id="AddNewFile" class="AddNewFile" text="AddNewFile">
+    </action-->
+    <action id="AddNewFile" class="AddNewFile" text="cowabunga">
       <add-to-group group-id="NewGroup" anchor="first"/>
     </action>
   </actions>
