@@ -26,7 +26,7 @@ public class AddNewFile extends AnAction {
         Editor editor = DataKeys.EDITOR.getData(e.getDataContext());
         String path = currentFile.getCanonicalPath();
 
-
+        // cheking if dir or file
         if (currentFile.getExtension() != null) {
 
 
@@ -42,6 +42,20 @@ public class AddNewFile extends AnAction {
 
 
         } else {
+
+            // getting dir from package
+
+
+
+
+
+
+
+
+
+
+
+
             StatusBar statusBar = WindowManager.getInstance()
                     .getStatusBar(DataKeys.PROJECT.getData(e.getDataContext()));
 
